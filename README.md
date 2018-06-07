@@ -6,15 +6,15 @@
 __________________________________________________________________________________________________________________________
 Component 2
 
-Je suis interressée par des poolrequest
+Je suis interressée par des poolrequest :
 
-1-  mettre le projet sous Heroku >> Cela a échoué jusqu'à présent >> revoir le code
+     1-  mettre le projet sous Heroku >> Cela a échoué jusqu'à présent >> revoir le code
 
-2-  fusionner le composent 1 et 2 (component 1 = CelebetripOSS)
+     2-  fusionner le composent 1 et 2 (component 1 = CelebetripOSS)
 
-3-  anomalie dans le code : l'animation du texte déroulant fait sauter le site au bout de quelques instants. Trouver le bug.
+     3-  anomalie dans le code : l'animation du texte déroulant fait sauter le site au bout de quelques instants. Trouver le bug.
 
-4-  anomalie dans le code :  Au niveau du menu (bootstrap) les onglets des menus sont collés. A voir dans le code
+     4-  anomalie dans le code :  Au niveau du menu (bootstrap) les onglets des menus sont collés. A voir dans le code
 
 
 
