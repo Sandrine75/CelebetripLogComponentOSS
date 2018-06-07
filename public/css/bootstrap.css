@@ -64,9 +64,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: rgb(10, 44, 56);
   text-align: left;
-  background-color: #fff;
+  background-color: #a0762e;
 }
 
 [tabindex="-1"]:focus {
@@ -168,7 +168,7 @@ a {
 }
 
 a:hover {
-  color: #0056b3;
+  color: #a0762e;
   text-decoration: underline;
 }
 
@@ -234,7 +234,7 @@ table {
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  color: #868e96;
+  color: #a0762e;
   text-align: left;
   caption-side: bottom;
 }
@@ -8820,7 +8820,7 @@ a.text-dark:focus, a.text-dark:hover {
 }
 
 .text-muted {
-  color: #868e96 !important;
+  color: #a0762e !important;
 }
 
 .text-hide {
