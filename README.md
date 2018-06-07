@@ -4,17 +4,31 @@
 
                                                   PROJET OPEN SOURCE
 __________________________________________________________________________________________________________________________
-Component 2
+
+Component 1 : https://github.com/Sandrine75/CelebetripLogComponentOSS
+
+Component 2 : https://github.com/Sandrine75/CelebetripLogComponentOSS
+__________________________________________________________________________________________________________________________
+
 
 Je suis interressée par des poolrequest :
 
+Component 1 :
+
+
+     1-  mettre le projet sous Heroku >> Cela a échoué jusqu'à présent >> revoir le code
+     
+     2-  anomalie dans le code : l'animation du texte déroulant fait sauter le site au bout de quelques instants. Trouver le bug.
+
+     3-  fusionner le composent 1 et 2 (component 1 = CelebetripOSS)
+     
+Component 2 :
+
      1-  mettre le projet sous Heroku >> Cela a échoué jusqu'à présent >> revoir le code
 
-     2-  fusionner le composent 1 et 2 (component 1 = CelebetripOSS)
-
-     3-  anomalie dans le code : l'animation du texte déroulant fait sauter le site au bout de quelques instants. Trouver le bug.
-
-     4-  anomalie dans le code :  Au niveau du menu (bootstrap) les onglets des menus sont collés. A voir dans le code
+     2-  anomalie dans le code :  Au niveau du menu (bootstrap) les onglets des menus sont collés. A voir dans le code
+     
+     3-  création d'un dashboard en cours
 
 
 
