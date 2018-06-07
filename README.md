@@ -5,7 +5,7 @@
                                                   PROJET OPEN SOURCE
 __________________________________________________________________________________________________________________________
 
-Component 1 : https://github.com/Sandrine75/CelebetripLogComponentOSS
+Component 1 : https://github.com/Sandrine75/CelebetripOSS
 
 Component 2 : https://github.com/Sandrine75/CelebetripLogComponentOSS
 __________________________________________________________________________________________________________________________
