@@ -1,6 +1,6 @@
 /* Pour espacer le contenu */
 body {
-  background-color: rgb(10, 44, 56);
+  background-color: #a0762e;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -16,7 +16,7 @@ body {
 /* Customisation page header */
 .header {
   padding-bottom: 20px;
-  border-bottom: 1px solid #a0762e; /* trait de couleur sous le header */
+  border-bottom: 1px solid rgb(10, 44, 56); /* trait de couleur sous le header */
 }
 /* Faire en sorte que les titres soient de la même hauteur que la navigation */
 .header h3 {
@@ -29,7 +29,7 @@ body {
 .footer {
   padding-top: 19px;
   color: #a0762e;
-  border-top: 1px solid #a0762e;
+  border-top: 1px solid rgb(10, 44, 56);
 }
 
 /* Customize container */
@@ -45,7 +45,7 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid #a0762e;
+  border-bottom: 1px solid rgb(10, 44, 56);
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -81,7 +81,7 @@ body {
 
 .page-header{
   margin-top:0;
-    color: #a0762e;
+    color: rgb(10, 44, 56);
 }
 
 .footer{

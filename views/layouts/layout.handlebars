@@ -15,14 +15,14 @@
 <!--    les deux onglets qui apparaissent sont login et register. Un fois que l'on est logé, ce sont les onglets daschboard et logout qui a^^araissent. Pour ajouter des pages dans les onglets, il faut les écrire avant la ligne "if user"  -->  
               
 <!-- Par contre on ne veut pas que le dashboard soit ouvert lorque dans la barre de navigation on indique seulement le /. Il faut donc le fixer le / sauf si on le renomme autrement... On le fait dans Index.js ligne 9 à 14 -->        
-            <li role="presentation"><a href="/">Acceuil</a></li>
+            <li role="presentation"><a href="/">Acceuil -</a></li>
               
               {{#if user}}
-                  <li role="presentation"><a href="/users/daschboard">Daschboard</a></li>
-                  <li role="presentation"><a href="/users/logout">Déconnexion</a></li>
+                  <li role="presentation"><a href="/users/daschboard">Daschboard - </a></li>
+                  <li role="presentation"><a href="/users/logout"> - Déconnexion</a></li>
                 {{else}}
-                  <li role="presentation"><a href="/users/login">Connection</a></li>
-                  <li role="presentation"><a href="/users/register">Inscription</a></li>
+                  <li role="presentation"><a href="/users/login"> - Connection - </a></li>
+                  <li role="presentation"><a href="/users/register"> - Inscription</a></li>
                 {{/if}}
 
             <!--</li>-->
