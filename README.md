@@ -19,7 +19,7 @@ Component 1 :
      
      2-  anomalie dans le code : l'animation du texte déroulant fait sauter le site au bout de quelques instants. Trouver le bug.
 
-     3-  fusionner le composent 1 et 2 (component 1 = CelebetripOSS)
+     3-  fusionner le component 1 et 2 (component 1 = CelebetripOSS)
      
 Component 2 :
 

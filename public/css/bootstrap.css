@@ -161,14 +161,16 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: #18627D;/* ---------------------------------------couleur barre navigation */
   text-decoration: none;
   background-color: transparent;
+  font-weight:bold; /* texte en gras*/
+  font-size: 14;
   -webkit-text-decoration-skip: objects;
 }
 
 a:hover {
-  color: #a0762e;
+  color: #D7B763; /* -----------------------------------------couleur clic barre navigation */
   text-decoration: underline;
 }
 
@@ -1922,7 +1924,7 @@ pre code {
   font-size: 1rem;
   line-height: 1.5;
   color: #495057;
-  background-color: #fff;
+  background-color: #FFF8E6; /* -----------------------------couleur fond champs de completude*/
   background-clip: padding-box;
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
@@ -1942,7 +1944,7 @@ pre code {
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-.form-control::-webkit-input-placeholder {
+.form-control::-webkit-input-placeholder {/* -----------------------------couleur texte interieur champs de completude*/
   color: #868e96;
   opacity: 1;
 }
@@ -1962,7 +1964,7 @@ pre code {
   opacity: 1;
 }
 
-.form-control::placeholder {
+.form-control::placeholder { /* -----------------------------couleur texte interieur champs de completude*/
   color: #868e96;
   opacity: 1;
 }
@@ -8673,6 +8675,7 @@ button.bg-dark:hover {
 
 .text-center {
   text-align: center !important;
+  color : #D7B763;
 }
 
 @media (min-width: 576px) {
@@ -8754,13 +8757,21 @@ button.bg-dark:hover {
 .text-white {
   color: #fff !important;
 }
+.text-center {
+  color: #D7B763 text-center !important;
+}
+.text-center2 {
+  color: #FFF8E6 text-center2 !important;
+  padding-left: 30px;
+}
+
 
 .text-primary {
-  color: rgb(10, 44, 56) !important;
+  color: #D7B763 text-muted !important;
 }
 
 a.text-primary:focus, a.text-primary:hover {
-  color: rgb(10, 44, 56) !important;
+  color:  rgb(10, 44, 56) !important;
 }
 
 .text-secondary {
@@ -8819,7 +8830,7 @@ a.text-dark:focus, a.text-dark:hover {
   color: rgb(10, 44, 56) !important;
 }
 
-.text-muted {
+.text-muted { /*  couleur texte celebetrip dans menu */
   color: rgb(10, 44, 56) !important;
 }
 

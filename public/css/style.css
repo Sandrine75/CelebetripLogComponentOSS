@@ -45,7 +45,7 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
   text-align: center;
-  border-bottom: 1px solid rgb(10, 44, 56);
+  border-bottom: 1px solid #D7B763;
 }
 .jumbotron .btn {
   padding: 14px 24px;
@@ -81,7 +81,7 @@ body {
 
 .page-header{
   margin-top:0;
-    color: rgb(10, 44, 56);
+    color: #D7B763;
 }
 
 .footer{

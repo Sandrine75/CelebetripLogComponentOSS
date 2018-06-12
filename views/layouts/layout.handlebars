@@ -20,7 +20,7 @@
               {{#if user}}
                   <li role="presentation"><a href="/users/daschboard">Daschboard - </a></li>
                   <li role="presentation"><a href="/users/logout"> - Déconnexion</a></li>
-                {{else}}
+                {{else}} <!-------couleur texte et texte en gras css/boostrap ligne 164--------->
                   <li role="presentation"><a href="/users/login"> - Connection - </a></li>
                   <li role="presentation"><a href="/users/register"> - Inscription</a></li>
                 {{/if}}
@@ -28,10 +28,15 @@
             <!--</li>-->
            </ul>
          </nav>
-        <h3 class="text-muted">Celebetrip</h3>
-          <h6 class ="text-muted">Découvrez le Paris d'une célébritée d'hier ou d'aujourd'hui</h6>
-      </header>
-
+        <h6 class="text-muted">Celebetrip</h6> <!------couleur texte 8832 Css/boostrap -->
+      </header> <!-- -------------couleur font css/style ligne 84--------------->
+    <div>
+        <h4 class ="text-center">Fan d'une personne connue (chanteur, écrivain,...) : <br> Partagez les anecdotes les plus secrètes sur votre célébrité </h4><br>
+        <h6 class="text-center2">
+        1- créer votre profil "Inscription" et rédigez vos histoires inédites sur votre célébrité <br><br> 3- géolocalisez l'information <br><br> 4- connectez vous sur mobile et découvrez nos circuits thématiques
+        </h6><br>
+        <h4 class ="text-center">"Le Paris d'une célébrité d'hier ou d'aujourd'hui" </h4><br>
+    </div>
       <main role="main">
         <div class="row">           <!-- ici : template pour envoyer message d'authentification réussie du users.js ligne 52 -->
           <div class="col-lg-12">   <!-- 3 cas possibles (que l'on retrouve en ligne 81 à 85 (global Vars) dans app.js )--> 
