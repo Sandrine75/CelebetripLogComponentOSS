@@ -404,6 +404,7 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: 1rem;
+    color:#FFF8E6;
 }
 
 .lead {
@@ -2423,11 +2424,15 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
+  background-color: #18627D; /* -------------------------couleur du bouton VALIDER dans les formulaires */
+  color: white;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.btn:focus, .btn:hover {
+.btn:focus, .btn:hover { /* ----------------couleur du bouton VALIDER lors du clic dans les formulaires */
   text-decoration: none;
+    background-color: #D7B763;
+    color: black;
 }
 
 .btn:focus, .btn.focus {
@@ -8677,6 +8682,10 @@ button.bg-dark:hover {
   text-align: center !important;
   color : #D7B763;
 }
+.text-centor {
+  text-align: center !important;
+  color : #FFF8E6;
+}
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -8760,10 +8769,7 @@ button.bg-dark:hover {
 .text-center {
   color: #D7B763 text-center !important;
 }
-.text-center2 {
-  color: #FFF8E6 text-center2 !important;
-  padding-left: 30px;
-}
+
 
 
 .text-primary {
