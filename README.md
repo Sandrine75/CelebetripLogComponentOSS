@@ -69,10 +69,10 @@ ______________________________________________BUG HEROKU________________________
 
 Manip Heroku :<br>
 $ cd my-project/<br>
-$ git init<br><br><br><br><br><br>
-$ heroku git:remote -a loginlogoutcelebetrip<br><br><br><br><br>
-$ git add .<br><br><br><br>
-$ git commit -am "make it better"<br><br><br>
+$ git init<br><br>
+$ heroku git:remote -a loginlogoutcelebetrip<br>
+$ git add .<br>
+$ git commit -am "make it better"<br>
 $ git push heroku master<br><br>
 
 Message dans la console :<br>
