@@ -33,14 +33,14 @@ Component 2 :
      
      3-  création d'un dashboard en cours
 
-
-
 <img src="/images/SandrineGautier.png" alt="Sandrine Gautier"/>
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
---------
-BUG MLAB : problème de connection vers la base de donnée. Les informtions ne passent pas
+
+_____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+problème de connection vers la base de donnée. Les informtions ne passent pas<br>
 --------------
-Contact Mlab
+BUG MLAB <br>
+--------------
+Contact Mlab<br>
 --------------
 
 Hello again,
@@ -64,9 +64,8 @@ Le message d'erreur dans la console est persistant :<br>
 
 
 -----------------------------------
-Nouveau contact aide Mlab. Réponse :
+Nouveau contact aide Mlab. Réponse :<br>
 -----------------------------------
-
 
 We're seeing the following error in the ds239137/loginlogout deployment's database log (timestamps are in Pacific Time):
 
