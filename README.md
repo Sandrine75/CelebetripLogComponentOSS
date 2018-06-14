@@ -7,6 +7,8 @@ ________________________________________________________________________________
 Component 1 : https://github.com/Sandrine75/CelebetripOSS
 
 Component 2 : https://github.com/Sandrine75/CelebetripLogComponentOSS
+
+Formilaire base de données : https://celebetrip.herokuapp.com/
 ________________________________________________________________________________________________________________
 
 
@@ -62,7 +64,7 @@ Le message d'erreur dans la console est persistant :
 (node:5524) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: Authentication failed.
 (node:5524) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
 
-QUID ?
+QUID ? <br>
 ______________________________________________BUG HEROKU____________________________________________
 
 Manip Heroku :
