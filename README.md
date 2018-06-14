@@ -35,7 +35,7 @@ Component 2 :
 
 <img src="/images/SandrineGautier.png" alt="Sandrine Gautier"/>
 
-______________________________________________________________________________________________________________
+___________________________________________BUG MLAB______________________________________________
 
 * Contact Mlab
 ______________
@@ -55,3 +55,26 @@ Please let us know if we can assist further.
 
 Kind regards,
 Sean@mLab
+
+____________________________________________SUITE BUG MLAB___________________________________________
+Le message d'erreur dans la console est persistant :
+
+(node:5524) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: Authentication failed.
+(node:5524) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+
+QUID ?
+______________________________________________BUG HEROKU____________________________________________
+
+Manip Heroku :
+$ cd my-project/
+$ git init
+$ heroku git:remote -a loginlogoutcelebetrip
+$ git add .
+$ git commit -am "make it better"
+$ git push heroku master
+
+Message dans la console :
+
+To https://git.heroku.com/loginlogoutcelebetrip.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/loginlogoutcelebetrip.git'
