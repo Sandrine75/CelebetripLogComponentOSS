@@ -8,7 +8,7 @@ Component 1 : https://github.com/Sandrine75/CelebetripOSS
 
 Component 2 : https://github.com/Sandrine75/CelebetripLogComponentOSS
 
-Formilaire base de données : https://celebetrip.herokuapp.com/
+Formulaire base de données : https://celebetrip.herokuapp.com/
 ________________________________________________________________________________________________________________
 
 
