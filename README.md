@@ -36,11 +36,13 @@ Component 2 :
 
 
 <img src="/images/SandrineGautier.png" alt="Sandrine Gautier"/>
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+--------
+BUG MLAB : problème de connection vers la base de donnée. Les informtions ne passent pas
+--------------
+Contact Mlab
+--------------
 
-___________________________________________BUG MLAB______________________________________________
-
-* Contact Mlab
-______________
 Hello again,
 
 We are seeing successful connections to your "loginlogout" database, so this doesn't appear to be connectivity issue:
@@ -51,21 +53,32 @@ js v8.11.2, LE, mongodb-core: 2.1.18" }
 2018-06-11T08:01:49.315-0700 I ACCESS   [conn352097] Successfully authenticated as principal loginlogout on loginlogout
 You'll likely need to debug the code path that inserts new documents to determine why documents are not being inserted.
 
-Does that help?
-
-Please let us know if we can assist further.
-
-Kind regards,
-Sean@mLab
-
-____________________________________________SUITE BUG MLAB___________________________________________<br>
+--------------
+SUITE BUG MLAB<br>
+--------------------------------------------------
 Le message d'erreur dans la console est persistant :<br>
+--------------------------------------------------
 
 (node:5524) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: Authentication failed.
 (node:5524) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
 
-QUID ? <br>
-______________________________________________BUG HEROKU____________________________________________<br>
+
+-----------------------------------
+Nouveau contact aide Mlab. Réponse :
+-----------------------------------
+
+
+We're seeing the following error in the ds239137/loginlogout deployment's database log (timestamps are in Pacific Time):
+
+2018-06-14T02:55:57.072-0700 I ACCESS   [conn356954] SCRAM-SHA-1 authentication failed for login on loginlogout from client 90.79.218.24:53710 ; UserNotFound: Could not find user login@loginlogout
+This indicates that either the shell and/or driver you are connecting with is not compatible with SCRAM-SHA-1, the authentication mechanism for MongoDB 3.0 and above. If you haven't already, could you look at the following troubleshooting documentation?
+http://docs.mlab.com/connecting/#version-compatibility
+
+>> Nota : je n'ai pas trouvé
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+-------------
+BUG HEROKU <br>
+-------------
 
 Manip Heroku :<br>
 $ cd my-project/<br>
