@@ -58,24 +58,24 @@ Please let us know if we can assist further.
 Kind regards,
 Sean@mLab
 
-____________________________________________SUITE BUG MLAB___________________________________________
-Le message d'erreur dans la console est persistant :
+____________________________________________SUITE BUG MLAB___________________________________________<br>
+Le message d'erreur dans la console est persistant :<br>
 
 (node:5524) UnhandledPromiseRejectionWarning: Unhandled promise rejection (rejection id: 1): MongoError: Authentication failed.
 (node:5524) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
 
 QUID ? <br>
-______________________________________________BUG HEROKU____________________________________________
+______________________________________________BUG HEROKU____________________________________________<br>
 
-Manip Heroku :
-$ cd my-project/
-$ git init
-$ heroku git:remote -a loginlogoutcelebetrip
-$ git add .
-$ git commit -am "make it better"
-$ git push heroku master
+Manip Heroku :<br>
+$ cd my-project/<br>
+$ git init<br><br><br><br><br><br>
+$ heroku git:remote -a loginlogoutcelebetrip<br><br><br><br><br>
+$ git add .<br><br><br><br>
+$ git commit -am "make it better"<br><br><br>
+$ git push heroku master<br><br>
 
-Message dans la console :
+Message dans la console :<br>
 
 To https://git.heroku.com/loginlogoutcelebetrip.git
  ! [remote rejected] master -> master (pre-receive hook declined)
