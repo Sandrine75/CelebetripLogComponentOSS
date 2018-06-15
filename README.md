@@ -74,6 +74,26 @@ This indicates that either the shell and/or driver you are connecting with is no
 http://docs.mlab.com/connecting/#version-compatibility
 
 >> Nota : je n'ai pas trouvé
+
+-----------------------------------
+Nouveau message Mlab. Réponse :<br>
+-----------------------------------
+
+Hi Sandrine,
+
+We're seeing the following error messages in the server logs:
+
+2018-06-14T08:40:30.376-0700 I NETWORK  [thread1] connection accepted from 90.79.218.24:57976 #357492 (46 connections now open)
+2018-06-14T08:40:30.405-0700 I NETWORK  [conn357492] received client metadata from 90.79.218.24:57976 conn357492: { driver: { name: "nodejs", version: "2.2.34" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.17134" }, platform: "Node.js v8.9.1, LE, mongodb-core: 2.1.18" }
+2018-06-14T08:40:30.452-0700 I ACCESS   [conn357492] SCRAM-SHA-1 authentication failed for login on loginlogout from client 90.79.218.24:57976 ; UserNotFound: Could not find user login@loginlogout
+There is no database user named "login" for the "loginlogout" database:
+
+https://mlab.com/databases/loginlogout#users
+
+Hope that helps! Please let us know if we can be of any further assistance.
+
+Kind regards,
+Sean@mLab
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 -------------
 BUG HEROKU <br>
