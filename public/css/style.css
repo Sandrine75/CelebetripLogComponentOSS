@@ -1,9 +1,10 @@
-/* Pour espacer le contenu */
+/* Space out content a bit */
 body {
   background-color: #a0762e;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
 .header,
@@ -72,7 +73,10 @@ body {
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
+    border-bottom: 1px solid rgb(10, 44, 56); /* trait de couleur sous le header */
   }
+    
+    
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
@@ -81,10 +85,10 @@ body {
 
 .page-header{
   margin-top:0;
-  color:#18627D;
+  color:#18627D; /* couleur du grand titre */
 }
 
-.footer{
+
+footer{
   margin-top:40px;
 }
-

@@ -12,17 +12,17 @@ var mongo = require('mongodb');
 var mongoose = require('mongoose');
 
 // connection base de donnée 
+
 mongoose.Promise = global.Promise;
 useMongoClient: true
-mongoose.connection.openUri('mongodb://login:logout@ds239137.mlab.com:39137/loginlogout');    // morceau retiré mongodb://localhost/login1
-//>> je passe sur Mlab au lieu de Mongodb Atlas
-        // création d'un compte mlab spécifique. Le timeout permet d'aller plus vite dans la requette
-        //var options = { server: { socketOptions: {connectTimeoutMS: 30000 } }};
-        //mongoose.connect('mongodb://login:logout@ds239137.mlab.com:39137/loginlogout', 
-// mongodb://login:logout@ds119524.mlab.com:19524/testtoutoptions , function(err) {
-        // console.log(err);
-        //});
-//var db = mongoose.connection;
+mongoose.connection.openUri('mongodb://login:logout@ds119524.mlab.com:19524/testtout'); 
+
+
+
+var options = { server: { socketOptions: {connectTimeoutMS: 30000 } }};
+mongoose.Promise = global.Promise;
+useMongoClient: true
+mongoose.connection.openUri('mongodb://login:logout@ds239137.mlab.com:39137/loginlogout');   
 
 //// ajouter les routes : index et users ////
 var routes = require('./routes/index');

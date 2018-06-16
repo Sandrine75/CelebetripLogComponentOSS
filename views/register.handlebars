@@ -1,103 +1,50 @@
-<!--document qui est en lien avec le registerform. (fixe les cadres) -->
-<h2 class="page-header">S'inscrire</h2>
 
-<!--partie pour indiquer les données qui ne sont pas remplies co le nom... -->
+<h2 class ="text-center">Vous êtes fan d'une Star ? </h2> <h6 class="text-center"> Un chanteur, un écrivain, un peintre...</h6><br>
+<!-- couleur textes CSS/Boostrap ligne 1319 A 1325 -->
+<h6 class="text-centor">Partagez les anecdotes les plus secrètes sur votre célébrité <br> sur notre plateforme collaborative Celebetrip<br><br> Et baladez-vous pour découvrir sur votre mobile :  </h6>  <!-- texte h6 CSS/boostrap ligne 1288--> 
+<h3 class ="text-center">"Le Paris d'une célébrité d'hier ou d'aujourd'hui" </h3><br><br>
+
+
+
+
+
+<h2 class="page-header">S'enregistrer</h2>
+{{#if user}}
+        <div class="alert alert-danger">Pseudo déjà existant. Choisissez un nouveau pseudo</div> 
+{{/if}}
+{{#if mail}}
+        <div class="alert alert-danger">Email déjà existant. Essayez de vous connecter</div> 
+{{/if}} 
 {{#if errors}}
       {{#each errors}}
-        <div class="alert alert-danger">{{msg}}</div> <!--cela se place en rouge en haut du registerform -->
+        <div class="alert alert-danger">{{msg}}</div>
       {{/each}}
 {{/if}}
 
 
-
-
-<form>
-    
-  <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationDefault01"></label>
-      <input type="text" class="form-control" id="validationDefault01" placeholder="Nom" value="" required>
-    </div>
-    <div class="col-md-4 mb-3">
-      <label for="validationDefault02"></label>
-      <input type="text" class="form-control" id="validationDefault02" placeholder="Prénom" value="" required>
-    </div>
-    <div class="col-md-4 mb-3">
-      <label for="validationDefaultUsername"></label>
-      <div class="input-group">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroupPrepend2">@</span>
-        </div>
-        <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Pseudo" aria-describedby="inputGroupPrepend2" required>
-      </div>
-    </div>
+<form method="post" action="/users/register">
+   <div class="form-group">
+    <label>Nom</label>
+    <input type="text" class="form-control" placeholder="Nom" name="name">
   </div>
-  <div class="form-row">
-    <div class="col-md-4 mb-3">
-      <label for="validationDefault01"></label>
-      <input type="text" class="form-control" id="validationDefault01" placeholder="Email" value="" required>
-    </div>
-    <div class="col-md-4 mb-3">
-      <label for="validationDefault02"></label>
-      <input type="text" class="form-control" id="validationDefault02" placeholder="Mot de passe" value="" required>
-    </div>
-    <div class="col-md-4 mb-3">
-      <label for="validationDefaultUsername"></label>
-      <div class="input-group">
-         <!--<div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroupPrepend2">@</span>
-        </div> -->
-        <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Confirmer mot de passe" aria-describedby="inputGroupPrepend2" required>
-      </div>
-    </div>
-    <small id="passwordHelpBlock" class="form-text text-muted">
-      <!--Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.-->
-    </small> 
-      
+  <div class="form-group">
+    <label>Pseudo</label>
+    <input type="text" class="form-control" placeholder="Pseudo" name="username">
+  </div><!-- couleur texte interieur champs CSS/boostrap 2598 -->
+   <div class="form-group">
+    <label>Email</label>
+    <input type="email" class="form-control" placeholder="Email" name="email">
+  </div>
+  <div class="form-group">
+    <label>Mot de passe</label>
+    <input type="password" class="form-control" placeholder="Mot de passe" name="password">
+  </div>
+  <div class="form-group">
+    <label>Confirmer son mot de passe</label>
+    <input type="password" class="form-control" placeholder="Mot de passe" name="password2">
   </div><br>
-    
- <!--
-           <div class="form-group">
-            <label>Email</label>
-            <input type="email" class="form-control" placeholder="" name="">
-          </div>
-          <div class="form-group">
-            <label>Mot de passe</label>
-            <input type="password" class="form-control" placeholder="" name="password">
-          </div>   
-
-         <label for="inputPassword5">Confirmer mot de passe</label>
-        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
-        <small id="passwordHelpBlock" class="form-text text-muted">
-          Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji.
-        </small>   
-
-          <div class="form-group">
-            <label>Confirmer son mot de passe</label>
-            <input type="password" class="form-control" placeholder="Password" name="password2">
-          </div>
-
-             <div class="form-group">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-              <label class="form-check-label" for="invalidCheck2">
-                Je reconnais avoir lu et accepté l’ensemble des conditions générales du site. Pour les lire, cliquez-ici
-              </label>
-            </div>
-          </div>
-          <button class="btn btn-primary" type="submit">Submit form</button>
-        </form>    
--->  
-    
   <button type="submit" class="btn btn-default">Valider</button>
-</form> <br> <br>
+</form><!-- taille bouton CSS/bosstrap ligne 3019 -->
 
-<h2 class ="text-center">Vous êtes fan d'une Star ? </h2> <h6 class="text-center"> Un chanteur, un écrivain, un peintre...</h6><br>
-<h6 class="text-centor">Partagez les anecdotes les plus secrètes sur votre célébrité <br> sur notre plateforme collaborative Celebetrip<br><br> Et baladez-vous pour découvrir sur votre mobile :  </h6>   
-<!--<h6 class="text60"><!-- ligne 8767 css/boostrap et couleur ligne 407 -->
-            <!--1- créer votre profil "Inscription" <br>
-            2- rédigez vos histoires inédites sur votre célébrité <br> 
-            3- géolocalisez l'information <br>
-            4- connectez vous sur mobile et découvrez nos circuits thématiques
-        </h6><br>-->
-        <h5 class ="text-center">"Le Paris d'une célébrité d'hier ou d'aujourd'hui" </h5><br>
+
+
