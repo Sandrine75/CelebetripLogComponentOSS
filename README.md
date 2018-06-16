@@ -47,7 +47,12 @@ $ git commit -am "make it better"<br>
 $ git push heroku master<br><br>
 
 Message dans la console :<br>
-
-To https://git.heroku.com/loginlogoutcelebetrip.git
- ! [remote rejected] master -> master (pre-receive hook declined)
-error: failed to push some refs to 'https://git.heroku.com/loginlogoutcelebetrip.git'
+remote: -----> Node.js app detected
+remote: parse error: Expected separator between values at line 29, column 11
+remote:  !     Unable to parse package.json
+remote:
+remote:
+remote: -----> Build failed
+remote: parse error: Expected separator between values at line 29, column 11
+remote: parse error: Expected separator between values at line 29, column 11
+remote: parse error: Expected separator between values at line 29, column 11
