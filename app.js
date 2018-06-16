@@ -12,17 +12,10 @@ var mongo = require('mongodb');
 var mongoose = require('mongoose');
 
 // connection base de donnée 
-
-mongoose.Promise = global.Promise;
-useMongoClient: true
-mongoose.connection.openUri('mongodb://login:logout@ds119524.mlab.com:19524/testtout'); 
-
-
-
 var options = { server: { socketOptions: {connectTimeoutMS: 30000 } }};
 mongoose.Promise = global.Promise;
 useMongoClient: true
-mongoose.connection.openUri('mongodb://login:logout@ds239137.mlab.com:39137/loginlogout');   
+mongoose.connection.openUri('mongodb://login:logout@ds119524.mlab.com:19524/testtout'); 
 
 //// ajouter les routes : index et users ////
 var routes = require('./routes/index');
