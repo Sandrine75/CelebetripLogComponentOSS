@@ -4,7 +4,8 @@
                                                   PROJET OPEN SOURCE
 ________________________________________________________________________________________________________________
 
-Component 1 : https://github.com/Sandrine75/CelebetripOSS
+Component 1 : https://github.com/Sandrine75/CelebetripOSS >> en attente de fusion. 
+Voir plutôt https://github.com/Sandrine75/Cel-V4 dernieres modifs et push
 
 Component 2 : https://github.com/Sandrine75/CelebetripLogComponentOSS
 
